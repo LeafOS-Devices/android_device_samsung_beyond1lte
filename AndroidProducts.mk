@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2022 The LeafOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beyond1lte.mk
+    $(LOCAL_DIR)/beyond1lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_beyond1lte-eng \
-    lineage_beyond1lte-user \
-    lineage_beyond1lte-userdebug
+    beyond1lte-eng \
+    beyond1lte-user \
+    beyond1lte-userdebug
